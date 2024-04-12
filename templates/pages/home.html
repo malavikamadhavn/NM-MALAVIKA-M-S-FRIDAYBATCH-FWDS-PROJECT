@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+    <title>Online Car Rental</title>
+    <style>
+        .navbar {
+        background-color: rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+      }
+      .navbar a {
+        float: right;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+      }
+      .navbar a:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+        color: black;
+      }
+      .container{
+        position: relative;
+      }
+      img{
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+      .text-overlay{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translatey(-400%);
+        text-align: center;
+        padding: 20px;
+      }
+      .text-overlay h1{
+        color: #003b67;
+      }
+      .text-overlay h3{
+        color: #2f83b1;
+      }
+    </style>
+</head>
+<body>
+  <img src="/media/car/car1.jpg" alt="Image"/>
+   <div class="navbar">
+    <a href="/templates/accounts/login.html">Login</a>
+    <a href="/templates/accounts/register.html">Register</a>
+    <a href="/templates/pages/contact.html">Contact</a>
+    <a href="/templates/pages/about.html">About</a>
+    <a href="/templates/pages/services.html">Service</a>
+    <a href="/templates/cars/cars.html">Car</a>
+    <a href="/templates/pages/home.html">Home</a>
+   </div>
+   <div class="container">
+      <div class="text-overlay">
+      <h1>YOUR PREMIER CAR RENTAL SERVICE</h1>
+      <h3>Explore Our Fleet of Top-Quality Vehicle and Enjoy a <br>
+        Hasslefree Rental Experience. Whether it's a Business trip or <br>
+        Weekend Gateway, We've Got The Perfect Ride for You</h3>
+    </div>
+  </div>
+</body>
+</html>
